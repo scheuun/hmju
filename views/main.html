@@ -15,25 +15,25 @@
             margin: 0;
         }
 
-        body {
+        body { 
             background-color: #9eddff;
         }
     </style>
     <script>
-        // $(document).ready(function () {
-        //     $.ajax({
-        //         url: 'https://krdict.korean.go.kr/api/search?key=5A340B3B26C1D4C0CBA1CC80AD1B98C6&q=무나',
-        //         type: 'GET',
-        //         success: function (data) {
-        //             console.log(data);
-        //             alert(document[1]);
-        //         },
-        //         error: function (data) {
-        //             console.log(data);
-        //             alert("실패");
-        //         }
-        //     });
-        // });
+        $(document).ready(function () {
+            $.ajax({
+                url: 'https://krdict.korean.go.kr/api/search?key=5A340B3B26C1D4C0CBA1CC80AD1B98C6&q=무나',
+                type: 'GET',
+                success: function (data) {
+                    console.log(data);
+                    alert(document[1]);
+                },
+                error: function (data) {
+                    console.log(data);
+                    alert("실패");
+                }
+            });
+        });
     </script>
 </head>
 <body>
