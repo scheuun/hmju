@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="hmju:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/hmju_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="hmju/web/Web" />
+    </root>
+  </artifact>
+</component>
