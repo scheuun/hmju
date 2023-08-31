@@ -21,6 +21,6 @@ b {
     font-size: 100px;
 }
 
-form {
+form, p, button {
     font-size: 30px;
 }
